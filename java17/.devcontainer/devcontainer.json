@@ -1,0 +1,10 @@
+{
+	"name": "java17",
+	"image": "gradle:jdk17",
+	"customizations": {
+		"vscode": { "extensions": [
+			"redhat.java", "vscjava.vscode-spring-initializr", "vscjava.vscode-java-dependency","vscjava.vscode-maven", "vscjava.vscode-java-test",
+			"vscjava.vscode-java-debug", "georgewfraser.vscode-javac", "vscjava.vscode-gradle", "formulahendry.code-runner", "vscjava.vscode-java-pack"
+		] }
+	}
+}

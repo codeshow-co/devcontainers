@@ -1,0 +1,7 @@
+{
+	"name": "kafka java",
+	"dockerComposeFile": "docker-compose.extend.yml",
+	"service": "work",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose"
+}

@@ -1,0 +1,8 @@
+{
+	"name": "kafka",
+	"dockerComposeFile": ["docker-compose.yml", "docker-compose.extend.yml"],
+	"service": "kafkacat",
+	"workspaceFolder": "/home/appuser/workspace",
+	"remoteUser": "root",
+	"shutdownAction": "stopCompose"
+}
