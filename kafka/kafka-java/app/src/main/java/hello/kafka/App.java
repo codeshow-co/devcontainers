@@ -17,10 +17,10 @@ public class App {
         var p = new Properties();
         p.setProperty(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "kafka:9092");
         try(var admin = Admin.create(p)) {
-            var newTopic = new NewTopic("hellojava", 1, (short)1);
+            var newTopic = new NewTopic("hello", 1, (short)1);
             CreateTopicsResult result = admin.createTopics(Arrays.asList(newTopic));
             Map<String, KafkaFuture<Void>> m = result.values();
-            Future<Void> future = m.get("hellojava");
+            Future<Void> future = m.get("hello");
             future.get();
         }
     }

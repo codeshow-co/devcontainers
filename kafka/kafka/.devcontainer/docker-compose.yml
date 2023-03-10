@@ -23,9 +23,9 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: '2181'
       ZOOKEEPER_ADMIN_ENABLE_SERVER: 'true'
-    ports:
-      - 2181:2181
-      - 8081:8080
+    # ports:
+    #   - 2181:2181
+    #   - 8081:8080
 
   kafka:
     image: confluentinc/cp-kafka
