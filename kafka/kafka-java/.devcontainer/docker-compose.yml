@@ -7,6 +7,7 @@ services:
       - kafka
     ports:
       - 8080:8080
+    restart: unless-stopped
     environment:
       AKHQ_CONFIGURATION: |
         akhq:
