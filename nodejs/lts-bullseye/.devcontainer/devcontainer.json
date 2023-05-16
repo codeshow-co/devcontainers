@@ -1,0 +1,12 @@
+{
+	"name": "node lts-bullseye",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "work",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [ ]
+		}
+	}
+}
