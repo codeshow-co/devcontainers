@@ -1,0 +1,14 @@
+{
+	"name": "python 3.11",
+	"dockerComposeFile": ["docker-compose.yml"],
+	"service": "work",
+	"workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"donjayamanne.python-extension-pack"
+			]
+		}
+	}
+}
